@@ -16,3 +16,18 @@ puts google_data.inspect
 # puts google_data['items'][0]['product']['title']
 
 # Put your answers below here
+
+
+
+
+# #1 - this function finds shopping products
+
+
+for (var i = 0; i < data.items.length; i++) {
+  console.log(data.items[i].kind.includes("shopping#product"));
+  if (data.items[i].kind.includes("shopping#product")) {
+      counter++;
+  }
+  console.log(counter);
+}
+*/
